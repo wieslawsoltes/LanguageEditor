@@ -66,7 +66,7 @@ var packageBinariesAction = new Action<string,string> ((configuration, platform)
     var outputZip = artifactsDir.CombineWithFilePath(output + ".zip");
     CleanDirectory(outputDir);
     CopyFileToDirectory(File(path + "LanguageEditor.exe"), outputDir);
-    CopyFileToDirectory(File(path + "app.config"), outputDir);
+    CopyFileToDirectory(File(path + "LanguageEditor.config"), outputDir);
     CopyFileToDirectory(File(path + "app.manifest"), outputDir);
     CopyFileToDirectory(File("./LICENSE.TXT"), outputDir);
     CopyFileToDirectory(File("./README.md"), outputDir);
