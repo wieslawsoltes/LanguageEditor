@@ -1,37 +1,44 @@
-## Welcome to GitHub Pages
+# LanguageEditor
 
-You can use the [editor on GitHub](https://github.com/wieslawsoltes/LanguageEditor/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+[![Build status](https://ci.appveyor.com/api/projects/status/7khsyl0fw7fqp9xw/branch/master?svg=true)](https://ci.appveyor.com/project/wieslawsoltes/languageeditor/branch/master)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+A dedicated xml language translation files editor.
 
-### Markdown
+## Download LanguageEditor
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### CI Builds
 
-```markdown
-Syntax highlighted code block
+[Download](https://ci.appveyor.com/project/wieslawsoltes/languageeditor/build/artifacts) bleeding edge builds from the CI server.
 
-# Header 1
-## Header 2
-### Header 3
+### Download LanguageEditor
 
-- Bulleted
-- List
+| Platform                   | Type        | Version       | Download                                                                                                                               |
+|----------------------------|-------------|---------------|----------------------------------------------------------------------------------------------------------------------------------------|
+| Windows .NET4.5 (Any CPU)  | Portable    | 1.0.0         | [LanguageEditor-1.0.0-AnyCPU.zip](https://github.com/wieslawsoltes/LanguageEditor/releases/download/1.0.0/LanguageEditor-1.0.0-AnyCPU.zip) |
+| Windows .NET4.5 (32-bit)   | Portable    | 1.0.0         | [LanguageEditor-1.0.0-x86.zip](https://github.com/wieslawsoltes/LanguageEditor/releases/download/1.0.0/LanguageEditor-1.0.0-x86.zip)       |
+| Windows .NET4.5 (64-bit)   | Portable    | 1.0.0         | [LanguageEditor-1.0.0-x64.zip](https://github.com/wieslawsoltes/LanguageEditor/releases/download/1.0.0/LanguageEditor-1.0.0-x64.zip)       |
 
-1. Numbered
-2. List
+## About
 
-**Bold** and _Italic_ and `Code` text
+LanguageEditor is a dedicated xml language translation files editor.
 
-[Link](url) and ![Image](src)
+LanguageEditor requires .NET Framework 4.5 and Windows 7 SP1 or above.
+
+## Language file format
+
+Use only UTF-8 compatible text editors (e.g. Notepad or Visual Studio Code) to edit xml language files
+and [use special characters in XML](https://www.dvteclipse.com/documentation/svlinter/How_to_use_special_characters_in_XML.3F.html#gsc.tab=0).
+
+```XML
+<?xml version="1.0" encoding="UTF-8"?>
+<Language id="en-US" original="English" translated="English">
+    <String key="0x00010001" value="&amp;File" />
+    <String key="0x00020001" value="&amp;Edit" />
+    <!-- Comment -->
+    <String key="0x00060001" value="&amp;Help" />
+</Language>
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## License
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/wieslawsoltes/LanguageEditor/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+LanguageEditor is licensed under the [MIT license](LICENSE.TXT).
