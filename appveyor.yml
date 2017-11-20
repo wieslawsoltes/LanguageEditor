@@ -1,0 +1,8 @@
+image: Visual Studio 2017
+before_build:
+- git submodule update --init
+build_script:
+- ps: .\build.ps1 -Target "Package"
+test: off
+artifacts:
+- path: artifacts\*.zip
