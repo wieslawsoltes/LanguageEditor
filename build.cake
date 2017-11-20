@@ -61,7 +61,7 @@ var buildSolutionAction = new Action<string,string,string> ((solution, configura
 var packageBinariesAction = new Action<string,string> ((configuration, platform) => 
 {
     var path = "./src/LanguageEditor/bin/" + platform + "/" + configuration + "/";
-    var output = "LanguageEditor-" + versionEditor + suffix + "-" + platform + (configuration == "Release" ? "" : ("-(" + configuration + ")"));
+    var output = "LanguageEditor-" + version + suffix + "-" + platform + (configuration == "Release" ? "" : ("-(" + configuration + ")"));
     var outputDir = artifactsDir.Combine(output);
     var outputZip = artifactsDir.CombineWithFilePath(output + ".zip");
     var exeFile = File(path + "LanguageEditor.exe");
