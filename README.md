@@ -39,6 +39,18 @@ and [use special characters in XML](https://www.dvteclipse.com/documentation/svl
 </Language>
 ```
 
+## LanguageEditor Sources
+
+Sources are available in the [git source code repository](https://github.com/wieslawsoltes/LanguageEditor.git).
+
+## Building LanguageEditor
+
+To build program from sources you will need the following components:
+
+### Microsoft Visual Studio 2017
+
+For building `LanguageEditor.sln` solution use [Visual Studio 2017](https://www.visualstudio.com).
+
 ## License
 
 LanguageEditor is licensed under the [MIT license](LICENSE.TXT).
