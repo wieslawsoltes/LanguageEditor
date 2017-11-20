@@ -64,9 +64,12 @@ var packageBinariesAction = new Action<string,string> ((configuration, platform)
     var output = "LanguageEditor-" + version + suffix + "-" + platform + (configuration == "Release" ? "" : ("-(" + configuration + ")"));
     var outputDir = artifactsDir.Combine(output);
     var outputZip = artifactsDir.CombineWithFilePath(output + ".zip");
-    var exeFile = File(path + "LanguageEditor.exe");
     CleanDirectory(outputDir);
-    CopyFileToDirectory(exeFile, outputDir);
+    CopyFileToDirectory(File(path + "LanguageEditor.exe"), outputDir);
+    CopyFileToDirectory(File(path + "app.config"), outputDir);
+    CopyFileToDirectory(File(path + "app.manifest"), outputDir);
+    CopyFileToDirectory(File("./LICENSE.TXT"), outputDir);
+    CopyFileToDirectory(File("./README.md"), outputDir);
     Zip(outputDir, outputZip);
 });
 
