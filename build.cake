@@ -20,8 +20,8 @@ var platforms = new [] { "AnyCPU", "x64", "x86" }.ToList();
 var configurations = new [] { "Debug", "Release" }.ToList();
 var solution = "./LanguageEditor.sln";
 var artifactsDir = (DirectoryPath)Directory("./artifacts");
-var binDir = (DirectoryPath)Directory("./src/LanguageEditor/bin");
-var objDir = (DirectoryPath)Directory("./src/LanguageEditor/obj");
+var binDir = (DirectoryPath)Directory("./src/bin");
+var objDir = (DirectoryPath)Directory("./src/obj");
 
 ///////////////////////////////////////////////////////////////////////////////
 // RELEASE
@@ -41,7 +41,7 @@ var isRelease =  !isLocalBuild && !isPullRequest && isMainRepo && isMasterBranch
 ///////////////////////////////////////////////////////////////////////////////
 
 var suffix = (isRelease || !isAppVeyorBuild) ? "" : "-build" + EnvironmentVariable("APPVEYOR_BUILD_NUMBER") + "-alpha";
-var version = ParseAssemblyInfo(File("./src/LanguageEditor/Properties/AssemblyInfo.cs")).AssemblyVersion;
+var version = ParseAssemblyInfo(File("./src/Properties/AssemblyInfo.cs")).AssemblyVersion;
 
 Information("Release Version: {0}", version + suffix);
 
@@ -60,7 +60,7 @@ var buildSolutionAction = new Action<string,string,string> ((solution, configura
 
 var packageBinariesAction = new Action<string,string> ((configuration, platform) => 
 {
-    var path = "./src/LanguageEditor/bin/" + platform + "/" + configuration + "/";
+    var path = "./src/bin/" + platform + "/" + configuration + "/";
     var output = "LanguageEditor-" + version + suffix + "-" + platform + (configuration == "Release" ? "" : ("-(" + configuration + ")"));
     var outputDir = artifactsDir.Combine(output);
     var outputZip = artifactsDir.CombineWithFilePath(output + ".zip");
