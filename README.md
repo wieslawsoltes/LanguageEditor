@@ -10,10 +10,6 @@ A dedicated xml language translation files editor.
 
 ## Download LanguageEditor
 
-### CI Builds
-
-[Download](https://ci.appveyor.com/project/wieslawsoltes/languageeditor/build/artifacts) bleeding edge builds from the CI server.
-
 ### Download LanguageEditor
 
 | Platform                   | Type        | Version       | Download                                                                                                                               |
@@ -21,6 +17,10 @@ A dedicated xml language translation files editor.
 | Windows .NET4.5 (Any CPU)  | Portable    | 1.0.0         | [LanguageEditor-1.0.0-AnyCPU.zip](https://github.com/wieslawsoltes/LanguageEditor/releases/download/1.0.0/LanguageEditor-1.0.0-AnyCPU.zip) |
 | Windows .NET4.5 (32-bit)   | Portable    | 1.0.0         | [LanguageEditor-1.0.0-x86.zip](https://github.com/wieslawsoltes/LanguageEditor/releases/download/1.0.0/LanguageEditor-1.0.0-x86.zip)       |
 | Windows .NET4.5 (64-bit)   | Portable    | 1.0.0         | [LanguageEditor-1.0.0-x64.zip](https://github.com/wieslawsoltes/LanguageEditor/releases/download/1.0.0/LanguageEditor-1.0.0-x64.zip)       |
+
+### CI Builds
+
+[Download](https://ci.appveyor.com/project/wieslawsoltes/languageeditor/build/artifacts) bleeding edge builds from the CI server.
 
 ## About
 
