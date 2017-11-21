@@ -10,8 +10,6 @@ A dedicated xml language translation files editor.
 
 ## Download LanguageEditor
 
-### Download LanguageEditor
-
 | Platform                   | Type        | Version       | Download                                                                                                                               |
 |----------------------------|-------------|---------------|----------------------------------------------------------------------------------------------------------------------------------------|
 | Windows .NET4.5 (Any CPU)  | Portable    | 1.0.0         | [LanguageEditor-1.0.0-AnyCPU.zip](https://github.com/wieslawsoltes/LanguageEditor/releases/download/1.0.0/LanguageEditor-1.0.0-AnyCPU.zip) |
