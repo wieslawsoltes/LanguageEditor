@@ -2,6 +2,10 @@
 
 [![Build status](https://ci.appveyor.com/api/projects/status/7khsyl0fw7fqp9xw/branch/master?svg=true)](https://ci.appveyor.com/project/wieslawsoltes/languageeditor/branch/master)
 
+[![Github All Releases](https://img.shields.io/github/downloads/wieslawsoltes/languageeditor/total.svg)](https://github.com/wieslawsoltes/LanguageEditor/releases)
+[![GitHub Release](https://img.shields.io/github/release/wieslawsoltes/languageeditor.svg)](https://github.com/wieslawsoltes/LanguageEditor/releases/latest)
+[![Github Releases](https://img.shields.io/github/downloads/wieslawsoltes/languageeditor/latest/total.svg)](https://github.com/wieslawsoltes/LanguageEditor/releases)
+
 A dedicated xml language translation files editor.
 
 ## Download LanguageEditor
