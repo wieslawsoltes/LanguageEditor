@@ -1,6 +1,7 @@
 # LanguageEditor
 
 [![Build status](https://ci.appveyor.com/api/projects/status/7khsyl0fw7fqp9xw/branch/master?svg=true)](https://ci.appveyor.com/project/wieslawsoltes/languageeditor/branch/master)
+[![Build Status](https://dev.azure.com/wieslawsoltes/LanguageEditor/_apis/build/status/wieslawsoltes.LanguageEditor)](https://dev.azure.com/wieslawsoltes/LanguageEditor/_build/latest?definitionId=1)
 
 [![Github All Releases](https://img.shields.io/github/downloads/wieslawsoltes/languageeditor/total.svg)](https://github.com/wieslawsoltes/LanguageEditor/releases)
 [![GitHub Release](https://img.shields.io/github/release/wieslawsoltes/languageeditor.svg)](https://github.com/wieslawsoltes/LanguageEditor/releases/latest)
