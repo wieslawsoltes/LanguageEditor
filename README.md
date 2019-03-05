@@ -1,7 +1,6 @@
 # LanguageEditor
 
-[![Build status](https://ci.appveyor.com/api/projects/status/7khsyl0fw7fqp9xw/branch/master?svg=true)](https://ci.appveyor.com/project/wieslawsoltes/languageeditor/branch/master)
-[![Build Status](https://dev.azure.com/wieslawsoltes/LanguageEditor/_apis/build/status/wieslawsoltes.LanguageEditor)](https://dev.azure.com/wieslawsoltes/LanguageEditor/_build/latest?definitionId=1)
+[![Build status](https://dev.azure.com/wieslawsoltes/GitHub/_apis/build/status/Old/GitHub-CI)](https://dev.azure.com/wieslawsoltes/GitHub/_build/latest?definitionId=-1)
 
 [![Github All Releases](https://img.shields.io/github/downloads/wieslawsoltes/languageeditor/total.svg)](https://github.com/wieslawsoltes/LanguageEditor/releases)
 [![GitHub Release](https://img.shields.io/github/release/wieslawsoltes/languageeditor.svg)](https://github.com/wieslawsoltes/LanguageEditor/releases/latest)
@@ -16,10 +15,6 @@ A dedicated xml language translation files editor.
 | Windows .NET4.5 (Any CPU)  | Portable    | 1.0.0         | [LanguageEditor-1.0.0-AnyCPU.zip](https://github.com/wieslawsoltes/LanguageEditor/releases/download/1.0.0/LanguageEditor-1.0.0-AnyCPU.zip) |
 | Windows .NET4.5 (32-bit)   | Portable    | 1.0.0         | [LanguageEditor-1.0.0-x86.zip](https://github.com/wieslawsoltes/LanguageEditor/releases/download/1.0.0/LanguageEditor-1.0.0-x86.zip)       |
 | Windows .NET4.5 (64-bit)   | Portable    | 1.0.0         | [LanguageEditor-1.0.0-x64.zip](https://github.com/wieslawsoltes/LanguageEditor/releases/download/1.0.0/LanguageEditor-1.0.0-x64.zip)       |
-
-### CI Builds
-
-[Download](https://ci.appveyor.com/project/wieslawsoltes/languageeditor/build/artifacts) bleeding edge builds from the CI server.
 
 ## About
 
