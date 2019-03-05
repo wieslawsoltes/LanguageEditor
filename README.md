@@ -20,7 +20,7 @@ A dedicated xml language translation files editor.
 
 LanguageEditor is a dedicated xml language translation files editor.
 
-LanguageEditor requires .NET Framework 4.5 and Windows 7 SP1 or above.
+LanguageEditor requires .NET Framework 4.5.2 and Windows 7 SP1 or above.
 
 ## Language file format
 
