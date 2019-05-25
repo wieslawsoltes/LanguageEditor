@@ -17,6 +17,7 @@
     <Authors>Wiesław Šoltés</Authors>
     <Company>Wiesław Šoltés</Company>
     <Copyright>Copyright © Wiesław Šoltés 2019</Copyright>
+    <PackageId>LanguageEditor</PackageId>
     <PackageLicenseUrl>https://github.com/wieslawsoltes/LanguageEditor/blob/master/LICENSE.TXT</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/wieslawsoltes/LanguageEditor</PackageProjectUrl>
     <Description> A dedicated xml language translation files editor.</Description>
