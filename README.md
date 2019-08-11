@@ -1,6 +1,6 @@
 # LanguageEditor
 
-[![Build status](https://dev.azure.com/wieslawsoltes/GitHub/_apis/build/status/Old/GitHub-CI)](https://dev.azure.com/wieslawsoltes/GitHub/_build/latest?definitionId=-1)
+[![Build status](https://dev.azure.com/wieslawsoltes/GitHub/_apis/build/status/Old/LanguageEditor)](https://dev.azure.com/wieslawsoltes/GitHub/_build/latest?definitionId=70)
 
 [![Github All Releases](https://img.shields.io/github/downloads/wieslawsoltes/languageeditor/total.svg)](https://github.com/wieslawsoltes/LanguageEditor/releases)
 [![GitHub Release](https://img.shields.io/github/release/wieslawsoltes/languageeditor.svg)](https://github.com/wieslawsoltes/LanguageEditor/releases/latest)
